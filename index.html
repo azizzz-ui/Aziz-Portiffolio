@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Aziz Affandy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER & NAVIGASI -->
+    <header>
+        <div class="container header-content">
+            <h1 class="logo">MyPortfolio</h1>
+            
+            <!-- Tombol Dark Mode -->
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav id="main-nav">
+                <a href="#home">Home</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#projects">Proyek</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Kontak</a>
+                <a href="https://www.instagram.com/aff_kings?igsh=bmhxbjFwZ2JyM2w0" target="_blank">Instagram</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section dengan Typing Effect -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <img src="narni.jpg" alt="Foto Profil Cristo" class="foto-profil">
+                <div class="hero-text">
+                    <h2>Halo, Saya Aziz Affandy</h2>
+                    <p>Seorang pelajar yang antusias mempelajari <span id="typing-text"></span><span class="cursor">|</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Sections -->
+        <section id="tentang" class="about reveal">
+            <div class="container">
+                <h2>Tentang Saya</h2>
+                <p>"Halo! Saya adalah seseorang yang selalu haus akan pengetahuan baru, terutama di bidang sains komputer dan pengembangan perangkat lunak. Minat saya pada web development tumbuh seiring dengan semakin besarnya peran internet dalam kehidupan sehari-hari; saya ingin menjadi bagian dari ekosistem tersebut, bukan hanya sebagai pengguna pasif, tetapi sebagai kreator aktif. Selain belajar teknis, saya juga berusaha mengembangkan pola pikir problem-solving dan adaptabilitas, karena saya sadar bahwa teknologi berubah sangat cepat. Visi jangka panjang saya adalah mampu membangun aplikasi web yang tidak hanya responsif dan cepat, tetapi juga inklusif dan dapat diakses oleh semua kalangan."</p>
+            </div>
+        </section>
+        
+        <section id="hobi" class="about reveal">
+            <div class="container">
+                <h2>Hobi</h2>
+                <p>"Di luar jam pelajaran dan sesi belajar coding, saya memiliki ketertarikan mendalam pada dunia fotografi jalanan (street photography) dan eksplorasi audio visual. Saya sering menghabiskan waktu sore untuk berkeliling kota mencari komposisi cahaya yang unik, sekaligus mendengarkan berbagai genre musik instrumental dan lo-fi yang membantu saya mempertahankan fokus saat mengerjakan proyek pemrograman. Kombinasi antara seni visual dan teknologi ini menjadi cara terbaik bagi saya untuk menyeimbangkan logika teknis dengan kreativitas artistik."</p>
+            </div>
+        </section>
+        
+        <section id="pendidikan" class="about reveal">
+            <div class="container">
+                <h2>Riwayat Pendidikan</h2>
+                <p>"Riwayat pendidikan saya dimulai dari jenjang Sekolah Dasar hingga saat ini menempuh pendidikan menengah atas dengan jurusan yang berfokus pada sains dan teknologi. Selama masa sekolah, saya secara aktif mengikuti ekstrakurikuler komputer dan klub robotik yang menjadi fondasi awal ketertarikan saya terhadap dunia digital. Pengalaman organisasi dan kompetisi akademik di sekolah tidak hanya mengasah kemampuan teknis saya, tetapi juga melatih kerja sama tim, manajemen waktu, dan kemampuan berkomunikasi—keterampilan lunak (soft skills) yang menurut saya sama pentingnya dengan kemampuan hard skill dalam membangun karier sebagai pengembang web di masa depan."</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects reveal">
+            <div class="container">
+                <h2>Proyek Saya</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>🌐 Website Portofolio</h3>
+                        <p>Website pribadi responsif dengan fitur interaktif.</p>
+                        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+                    </div>
+                    <div class="project-card">
+                        <h3> Aplikasi To-Do List</h3>
+                        <p>Aplikasi pencatat tugas harian dengan LocalStorage.</p>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-card">
+                        <h3>🎨 Landing Page</h3>
+                        <p>Halaman promosi produk dengan desain modern.</p>
+                        <span class="tag">HTML</span><span class="tag">CSS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills reveal"> 
+            <div class="container"> 
+                <h2>Keahlian Saya</h2> 
+                <div class="skills-grid"> 
+                    <div class="skill-card">HTML</div> 
+                    <div class="skill-card">CSS</div> 
+                    <div class="skill-card">JavaScript</div> 
+                    <div class="skill-card">C++</div> 
+                    <div class="skill-card">Python</div> 
+                    <div class="skill-card">Fotografi</div> 
+                    <div class="skill-card">Videografi</div>
+                    <div class="skill-card">tes</div>
+                    <div class="skill-card">tes</div>
+                    <div class="skill-card">tes</div>
+                </div> 
+            </div> 
+        </section> 
+
+        <!-- Contact Section (Tugas Wajib Materi 3) -->
+        <section id="contact" class="contact reveal">
+            <div class="container">
+                <h2>Hubungi Saya</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="contoh@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tulis pesan Anda di sini..."></textarea>
+                    </div>
+                    <button type="submit" id="submit-btn">Kirim Pesan </button>
+                    <p id="form-status" class="form-status"></p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Aziz Affandy. Dibuat dengan cinta dan HTML/CSS/JS.</p>
+    </footer>
+
+    <!-- Hubungkan JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
